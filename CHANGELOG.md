@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.0.0](https://github.com/akoessler/release-firefox-addon/compare/release-firefox-addon-v0.3.0...release-firefox-addon-v1.0.0) (2024-06-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* Set unique action name: Release Firefox add-on to AMO
+
+### Features
+
+* Set unique action name: Release Firefox add-on to AMO ([5433def](https://github.com/akoessler/release-firefox-addon/commit/5433def3c2a9aac572e89bd137dcacb68911c2bd))
+
 ## [0.3.0](https://github.com/akoessler/release-firefox-addon/compare/release-firefox-addon-v0.2.0...release-firefox-addon-v0.3.0) (2024-06-22)
 
 
