@@ -1,6 +1,6 @@
-name: 'Release Firefox addon'
+name: 'Release Firefox add-on to AMO'
 description: 'Release a Firefox add-on to addons.mozilla.org by uploading a zip file with optional source file'
-author: "Shin'ya Ueoka"
+author: "Andreas Kössler"
 
 inputs:
   addon-id:
