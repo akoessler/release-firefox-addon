@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/akoessler/release-firefox-addon/compare/release-firefox-addon-v1.0.0...release-firefox-addon-v1.0.1) (2024-06-22)
+
+
+### Bug Fixes
+
+* set action icon and color ([222bede](https://github.com/akoessler/release-firefox-addon/commit/222bede71c95387779cfe4acb3677274250a1619))
+
 ## [1.0.0](https://github.com/akoessler/release-firefox-addon/compare/release-firefox-addon-v0.3.0...release-firefox-addon-v1.0.0) (2024-06-22)
 
 
