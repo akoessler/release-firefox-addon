@@ -1,5 +1,5 @@
 <p>
-  <a href="https://github.com/browser-actions/release-firefox-addon/actions/workflows/release.yml"><img alt="typescript-action status" src="https://github.com/browser-actions/release-firefox-addon/actions/workflows/release.yml/badge.svg"></a>
+  <a href="https://github.com/akoessler/release-firefox-addon/actions/workflows/release.yml"><img alt="typescript-action status" src="https://github.com/akoessler/release-firefox-addon/actions/workflows/release.yml/badge.svg"></a>
 </p>
 
 # release-firefox-addon
@@ -12,7 +12,7 @@ The minimal usage is as follows:
 
 ```yaml
 steps:
-- uses: browser-actions/release-firefox-addon@latest
+- uses: akoessler/release-firefox-addon@latest
   with:
     addon-id: "please specify your add-on in number or UUID format, or add-on name"
     addon-path: "path/to/your/addon.zip"
@@ -26,7 +26,7 @@ If your add-on includes minified files or transpiled files, you should submit yo
 
 ```yaml
 steps:
-- uses: browser-actions/public-firefox-addon@latest
+- uses: akoessler/release-firefox-addon@latest
   with:
     addon-id: "please specify your add-on in number or UUID format, or add-on name"
     addon-path: "path/to/your/addon.zip"
@@ -69,3 +69,12 @@ All supported outputs are the following:
 ## License
 
 [MIT](LICENSE)
+
+## Fork
+
+This is forked from: <https://github.com/browser-actions/release-firefox-addon>
+
+Changes:
+
+- Fix license not being set in request -> use parameter instead of "MIT" constant
+- Fix node16 being referenced -> use node20

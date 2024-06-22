@@ -1,10 +1,13 @@
 {
   "name": "release-firefox-addon",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Publish a firefox addon to AMO",
   "main": "index.js",
-  "repository": "git@github.com:browser-actions/release-firefox-addon.git",
-  "author": "Shin'ya Ueoka <ueokande@i-beam.org>",
+  "repository": "git@github.com:akoessler/release-firefox-addon.git",
+  "author": "Andreas Kössler <github@akoessler.com>",
+  "contributors": [
+    "Shin'ya Ueoka <ueokande@i-beam.org>"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@types/form-data": "^2.5.0",
